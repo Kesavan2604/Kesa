@@ -1,0 +1,32 @@
+class SivaKumar{  
+void gardening()
+   {
+	System.out.println("Sivakumar love's gardening");
+	}  
+void yoga()
+{
+	System.out.println("Sivakumar so yoga everyday");
+	}  
+}  
+class surya extends SivaKumar{  
+void act()
+{
+	System.out.println("Surya Love's acting");
+	}  
+}  
+class Karthick extends surya
+{  
+void Action()
+{
+	System.out.println("Karthick love's Action movie");
+	}  
+}  
+class TestInheritance2{  
+public static void main(String args[]){  
+Karthick d=new Karthick();  
+d.gardening();  
+d.yoga();  
+d.act();
+d.Action();
+}
+}  

@@ -1,0 +1,22 @@
+package learning;
+public class bank {
+
+	int interest_rate  =4;
+	
+	void deposite() {
+    System.out.println("desposited");
+	}
+	
+	public void Enquire() {
+	    System.out.println("Enquired");
+		}
+	
+	private void withdraw() {
+	    System.out.println("money withdraw");
+		}
+	
+	private void calculateInterest() {
+	    System.out.println("Interest calculated");
+		}
+
+}
